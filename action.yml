@@ -13,3 +13,7 @@ runs:
   image: 'Dockerfile'
   args:
     - ${{ inputs.who-to-greet }}
+
+branding:
+  icon: 'alert-triangle'
+  color: 'orange'
